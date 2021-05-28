@@ -1,22 +1,22 @@
 [alias]
-	lg = log --pretty=oneline -n 20 --graph --abbrev-commit
-	st = status -s
-	m = checkout master
-	amend = commit --amend --reuse-message=HEAD
+    lg = log --pretty=oneline -n 20 --graph --abbrev-commit
+    st = status -s
+    m = checkout master
+    amend = commit --amend --reuse-message=HEAD
 
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
-	ui = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    ui = auto
 
 [color "branch"]
-	current = green
-	remote = yellow
+    current = green
+    remote = yellow
 
 [branch]
-	sort = -committerdate
+    sort = -committerdate
 
 [help]
     autocorrect = 1
@@ -26,4 +26,4 @@
     email = longfeilin01@gmail.com
 
 [credential]
-	helper = store
+    helper = store
