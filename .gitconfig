@@ -1,0 +1,27 @@
+[alias]
+	lg = log --pretty=oneline -n 20 --graph --abbrev-commit
+	st = status -s
+	m = checkout master
+	amend = commit --amend --reuse-message=HEAD
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+
+[color "branch"]
+	current = green
+	remote = yellow
+
+[branch]
+	sort = -committerdate
+
+[help]
+    autocorrect = 1
+
+[user]
+    name = Longfei Lin
+    email = longfeilin01@gmail.com
+
