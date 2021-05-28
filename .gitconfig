@@ -25,3 +25,5 @@
     name = Longfei Lin
     email = longfeilin01@gmail.com
 
+[credential]
+	helper = store

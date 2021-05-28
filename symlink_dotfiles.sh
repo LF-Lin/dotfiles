@@ -3,8 +3,9 @@ DOTFILES_ROOT=$(pwd)
 for name in $(find -H "$DOTFILES_ROOT" -maxdepth 2 -name '.*' -not -path '*.git'); do
   if [ ! -d "$name" ]; then
     SRC=$(basename "$name")
-    TARGET="$HOME/$src"
+    TARGET="$HOME/$SRC"
     echo "-----> Symlinking from $DOTFILES_ROOT/$SRC to $TARGET"
+    rm -f "$TARGET"
     ln -s "$DOTFILES_ROOT/$SRC" "$TARGET"
   fi
 done
