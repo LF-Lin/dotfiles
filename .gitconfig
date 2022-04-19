@@ -22,8 +22,11 @@
     autocorrect = 1
 
 [user]
-    name = Longfei Lin
+    name = LF-Lin
     email = longfeilin01@gmail.com
 
 [credential]
     helper = store
+
+[core]
+    editor = vim
